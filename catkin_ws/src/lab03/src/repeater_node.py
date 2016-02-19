@@ -5,7 +5,7 @@ from std_msgs.msg import String #Imports msg
 # Define callback function
 def callback(msg):
 	rospy.loginfo("I heard: %s" %(msg.data))
-	# TODO: Publish the received message using publisher
+	publisher.publish(msg)	
 
 # Initialize the node with rospy
 rospy.init_node('repeater_node')
