@@ -1,5 +1,6 @@
 <launch>
 	<arg name="env_script_path" default="~/duckietown/environment.sh"/>
+<<<<<<< HEAD
 	<machine name="ferrari" address="ferrari.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
 	<machine name="2cv" address="2cv.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
 	<machine name="sonata" address="sonata.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
@@ -27,5 +28,9 @@
 	<machine name="charles" address="charles.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
 	<machine name="starducks" address="starducks.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
 	<machine name="pipquack" address="pipquack.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
+=======
+ 	<machine name="oreo" address="oreo.local" user="ubuntu" env-loader="$(arg env_script_path)"/>
+
+>>>>>>> 6e8e46473e107b5a1a00db99bdfd60bf0e6edd04
 </launch>
 
